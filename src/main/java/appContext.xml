@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+ 	
+ 	<bean id="employeeOne" class="com.del.app.bean.Employee">
+ 		<property name="empId" value="10001"></property>
+ 		<property name="name" value="Eva Smith"></property>
+ 		<property name="dept" value="Engineering"></property>
+ 		<property name="salary" value="9834.34"></property>
+ 	</bean>
+ 	<bean id="employeeTwo" class="com.del.app.bean.Employee">
+ 		<property name="empId" value="10002"></property>
+ 		<property name="name" value="John Smith"></property>
+ 		<property name="dept" value="Engineering"></property>
+ 		<property name="salary" value="99994.34"></property>
+ 	</bean>
+ 	<bean id="employeeThree" class="com.del.app.bean.Employee">
+ 		<property name="empId" value="10003"></property>
+ 		<property name="name" value="Will Smith"></property>
+ 		<property name="dept" value="Engineering"></property>
+ 		<property name="salary" value="5679834.34"></property>
+ 	</bean>
+</beans>
